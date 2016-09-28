@@ -502,7 +502,7 @@ describe('modeling - label layouting', function() {
         dragging.end();
 
         // then
-        expect(connection.label.y - labelPosition.y).to.be.within(-76, -72);
+        expect(connection.label.y - labelPosition.y).to.be.within(-76, -71);
         expect(connection.label.x - labelPosition.x).to.be.within(-53, -51);
 
       }));
